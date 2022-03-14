@@ -1,0 +1,6 @@
+{
+  "entryPoints": [
+    "./src/p5.ts"
+  ],
+  "out": "./typedocumentation"
+}
