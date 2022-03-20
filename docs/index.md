@@ -4,8 +4,9 @@
 ### Índice de ejercicios
 
 -[Ejercicio 1  - Pokedex](#e1)
-
 -[Ejercicio 2 - Conecta4](#e2) 
+-[Datos Instambul](#e3) 
+-[Datos Coveralls](#e4) 
 
 
 ### Introducción
@@ -506,8 +507,9 @@ describe('Pruebas del juego Conecta4', () => {
 ```
 ![Pruebas Conecta4](./images/Con4.png)
 
+<a name="e3"></a>
 ## Datos Instambul
-![instambul](./images/instambul.png)
-
+![Instambul](./images/Instambul.png)
+<a name="e4"></a>
 ## Datos Coveralls
-![coveralls](./images/Coveralls.png)
+![coveralls](./images/coveralls.png)
