@@ -258,7 +258,7 @@ describe('Pruebas de pokedex y combates pokemon', () => {
   });
 });
 ```
-![Pruebas pokemon](./images.Ppok.png)
+![Pruebas pokemon](./images/Ppok.png)
 
 
 ## Ejercicio 2 - Conecta4
