@@ -4,7 +4,8 @@
 
 ### Índice de ejercicios
 
--[Ejercicio 1  - Tablas de multiplicar](#e1)   
+-[Ejercicio 1  - Pokedex](#e1) 
+-[Ejercicio 2 - Conecta4](#e2) 
 
 
 ### Introducción
@@ -29,6 +30,7 @@ clase:
 * [Arrays, tuplas y enumerados](https://ull-esit-inf-dsi-2122.github.io/typescript-theory/typescript-arrays-tuples-enums.html)
 * [Objetos, clases e interfaces](https://ull-esit-inf-dsi-2122.github.io/typescript-theory/typescript-objects-classes-interfaces.html)
 
+<a name="e1"></a>
 ## Ejercicio 1 - Pokedex 
 
 Crearemos una clase para registrar diferentes pokemons, para representar la informacion de cada uno definimos
@@ -260,7 +262,9 @@ describe('Pruebas de pokedex y combates pokemon', () => {
 ```
 ![Pruebas pokemon](./images/Ppok.png)
 
+***
 
+<a name="e2"></a>
 ## Ejercicio 2 - Conecta4
 
 Desarrollaremos la clase que simula el juego `Conecta 4`, para ello definiremos una matriz de objetos `Ficha` como
