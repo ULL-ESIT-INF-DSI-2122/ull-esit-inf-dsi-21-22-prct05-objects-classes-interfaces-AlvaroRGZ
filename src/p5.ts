@@ -6,29 +6,52 @@ export class Persona {
   constructor(private nombre: string, private apellidos: string,
               private fecha: string, private genero: string){
   }
-  getNombre(): string {
+  /**
+   * @return nombre de la persona
+   */
+  public getNombre(): string {
     return this.nombre;
   }
-  getApellidos(): string {
+  /**
+   * @return  apellidos de la persona
+   */
+  public getApellidos(): string {
     return this.apellidos;
   }
-  getFecha(): string {
+  /**
+   * @return  fecha de nacimiento de la persona
+   */
+  public getFecha(): string {
     return this.fecha;
   }
-  getGenero(): string {
+  /**
+   * @return  genero de la persona
+   */
+  public getGenero(): string {
     return this.genero;
   }
-
-  setNombre(g: string) {
+  /**
+   * @param g nuevo nombre de la persona
+   */
+  public setNombre(g: string) {
     this.nombre = g;
   }
-  setApellidos(g: string) {
+  /**
+   * @param g nuevos apellidos de la persona
+   */
+  public setApellidos(g: string) {
     this.apellidos = g;
   }
-  setFecha(g: string) {
+  /**
+   * @param g nueva fecha de nacimiento de la persona
+   */
+  public setFecha(g: string) {
     this.fecha = g;
   }
-  setGenero(g: string) {
+  /**
+   * @param g nuevo genero de la persona
+   */
+  public setGenero(g: string) {
     this.genero = g;
   }
 }
@@ -44,10 +67,18 @@ export class Estudiante extends Persona {
       super(nombre, apellidos, fecha, genero);
       this.correo = mail;
     }
-  getCorreo(): string {
+  /**
+   *
+   * @returns correo del estudiante
+   */
+  public getCorreo(): string {
     return this.correo;
   }
-  setCorreo(c: string){
+  /**
+   *
+   * @param c nuevo correo del estudiante
+   */
+  public setCorreo(c: string){
     this.correo = c;
   }
 }
@@ -63,10 +94,18 @@ export class Profesor extends Persona {
       super(nombre, apellidos, fecha, genero);
       this.numero = num;
     }
-  getNumero(): number {
+  /**
+   *
+   * @returns numero del profesor
+   */
+  public getNumero(): number {
     return this.numero;
   }
-  setNumero(c: number){
+  /**
+   *
+   * @param c nuevo numero del profesor
+   */
+  public setNumero(c: number){
     this.numero = c;
   }
 }
@@ -80,17 +119,25 @@ export class Profesor extends Persona {
 export class Asignatura {
   constructor(private nombre: string, private profesores: Profesor[],
               private alumnos: Estudiante[]) {}
-
-  getNombre(): string {
+  /**
+   * @returns nombre de la asignatura
+   */
+  public getNombre(): string {
     return this.nombre;
   }
-  listaProfesores(): Profesor[] {
+  /**
+   * @returns un vector de la lista de profesores de la asignatura
+   */
+  public listaProfesores(): Profesor[] {
     this.profesores.forEach((element) => {
       console.log(element.getNombre() + ' ' + element.getNumero().toString());
     });
     return this.profesores;
   }
-  listaAlumnos(): Estudiante[] {
+  /**
+   * @returns vector de estudientes de la asisnatura
+   */
+  public listaAlumnos(): Estudiante[] {
     this.alumnos.forEach((element) => {
       console.log(element.getNombre() + ' ' + element.getCorreo());
     });

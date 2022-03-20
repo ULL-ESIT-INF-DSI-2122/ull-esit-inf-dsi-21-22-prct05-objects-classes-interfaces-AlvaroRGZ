@@ -24,5 +24,8 @@
     "ts-node": "^10.7.0",
     "tsc-watch": "^4.6.0",
     "typedoc": "^0.22.13"
+  },
+  "dependencies": {
+    "scanf": "^1.1.2"
   }
 }
