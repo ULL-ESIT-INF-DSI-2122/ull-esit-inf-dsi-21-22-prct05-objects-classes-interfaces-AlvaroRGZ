@@ -29,7 +29,7 @@ clase:
 * [Arrays, tuplas y enumerados](https://ull-esit-inf-dsi-2122.github.io/typescript-theory/typescript-arrays-tuples-enums.html)
 * [Objetos, clases e interfaces](https://ull-esit-inf-dsi-2122.github.io/typescript-theory/typescript-objects-classes-interfaces.html)
 
-### Ejercicio 1 - Pokedex 
+## Ejercicio 1 - Pokedex 
 
 Crearemos una clase para registrar diferentes pokemons, para representar la informacion de cada uno definimos
 la siguiente clase `Pokemon`: 
@@ -73,14 +73,14 @@ export class Pokedex {
 Por último, desarrollamos la clase `Combat` que representa un combate entre dos pokemons registrados, aprovechando
 la funcion en un ejercicio anterior sobre `Pokemons`. Revisaremos la clase por partes:
   
-**Constructor** Recibe los pokemons
+`Constructor` Recibe los pokemons
 ```Typescript
 
 export class Combat {
   constructor(private p1: Pokemon, private p2: Pokemon){}
 ```
 
-**Daño real** El metodo reutilizado que ya explicamos en la practica 4.
+`Daño real` El metodo reutilizado que ya explicamos en la practica 4.
 ```Typescript
 dañoReal(p1: Pokemon, p2: Pokemon) {
     let efectividad: number = 0;
@@ -142,7 +142,7 @@ dañoReal(p1: Pokemon, p2: Pokemon) {
   }
 ```
 
-**showCombatStatus** Muestra el estado de los dos combatientes.
+`howCombatStatus`Muestra el estado de los dos combatientes.
 ```Typescript
   showCombatStatus(){
     console.log(this.p1.nombre, '              ', this.p2.nombre);
@@ -151,7 +151,7 @@ dañoReal(p1: Pokemon, p2: Pokemon) {
   }
 ```
 
-**Start** La función principal, con un bucle en el que el turno va cambiando de un pokemon a otro en cada 
+`Start` La función principal, con un bucle en el que el turno va cambiando de un pokemon a otro en cada 
 iteracion, se calcula el daño realizado y se le resta al contrincante hasta que uno de los dos quede sin vida.
 ```Typescript
 
