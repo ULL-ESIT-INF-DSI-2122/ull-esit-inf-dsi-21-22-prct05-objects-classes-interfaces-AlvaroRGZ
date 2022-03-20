@@ -1,6 +1,10 @@
 type type = 'agua' | 'hierba' | 'fuego' | 'electrico'
 
+/**
+* Representa los datos de un pokemon
+*/
 export class Pokemon {
+  
   constructor(
     public nombre: string,
     public tipo: type,
@@ -17,6 +21,9 @@ export class Pokemon {
   }
 }
 
+/**
+* Representa los Pokemons registrados
+*/
 export class Pokedex {
   public list: Pokemon[];
   constructor(l: Pokemon[]){
@@ -27,6 +34,9 @@ export class Pokedex {
   }
 }
 
+/**
+* Simula combates entre dos pokemons
+*/
 export class Combat {
   constructor(private p1: Pokemon, private p2: Pokemon){}
               // private candidates: Pokedex) {
