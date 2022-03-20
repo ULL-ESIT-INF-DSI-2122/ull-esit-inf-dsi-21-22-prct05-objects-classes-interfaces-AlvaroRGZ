@@ -1,6 +1,5 @@
 # Práctica 5 - DSI
-## Clases
-
+## Objetos, clases e interfaces
 
 ### Índice de ejercicios
 
