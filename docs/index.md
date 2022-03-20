@@ -4,7 +4,8 @@
 
 ### Índice de ejercicios
 
--[Ejercicio 1  - Pokedex](#e1) 
+-[Ejercicio 1  - Pokedex](#e1)
+
 -[Ejercicio 2 - Conecta4](#e2) 
 
 
