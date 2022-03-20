@@ -3,10 +3,10 @@
 
 ### Índice de ejercicios
 
--[Ejercicio 1  - Pokedex](#e1)
--[Ejercicio 2 - Conecta4](#e2)
--[Datos Instambul](#e3)
--[Datos Coveralls](#e4) 
+-[Ejercicio 1  - Pokedex](#e1)<br>
+-[Ejercicio 2 - Conecta4](#e2)<br>
+-[Datos Instambul](#e3)<br>
+-[Datos Coveralls](#e4)<br>
 
 ### Introducción
 
