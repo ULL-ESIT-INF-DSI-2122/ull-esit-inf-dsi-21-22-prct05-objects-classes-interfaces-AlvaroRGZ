@@ -16,7 +16,7 @@ que vamos a valernos de tres herramientas para llevarlo a cabo:
 
 * [Mocha](https://mochajs.org/) y [Chai](https://www.chaijs.com/): para incorporar TDD.
 * [Typedoc](https://typedoc.org/): para realizar la documentación automática de nuestro codigo.
-* [Instambul][https://istanbul.js.org/] Para mostrarnos los datos de cubrimiento de nuestros test.
+* [Instambul](https://istanbul.js.org/) Para mostrarnos los datos de cubrimiento de nuestros test.
 * [Coveralls](https://coveralls.io/) Para llevar el seguimiento de `Instambul` en nuestro repositorio.
 
 Continuaremos con la misma estructura de directorios basada en las anteriores prácticas, añadiendo el nuevo
