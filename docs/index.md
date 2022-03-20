@@ -506,3 +506,8 @@ describe('Pruebas del juego Conecta4', () => {
 ```
 ![Pruebas Conecta4](./images/Con4.png)
 
+## Datos Instambul
+![instambul](./images/instambul.png)
+
+## Datos Coveralls
+![coveralls](./images/Coveralls.png)
